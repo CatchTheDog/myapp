@@ -3,7 +3,7 @@ appenders:
     type:
       "dateFile"
     filename:
-      "log/access.log"
+      "../log/access.log"
     pattern:
       "-yyyy-MM-dd HH:mm:ss SSS"
     category:
@@ -12,7 +12,7 @@ appenders:
     type:
       "file"
     filename:
-      "log/app.log"
+      "../log/app.log"
     maxLogSize:
       10485760
     numBackups:
@@ -21,7 +21,7 @@ appenders:
     type:
       "file"
     filename:
-      "log/errors.log"
+      "../log/errors.log"
   errors:
     type:
       "logLevelFilter"
