@@ -1,4 +1,4 @@
 loggerconfigpath:
   "/config/loggerconfig.yml"
 mongoURL:
-  "mongodb://127.0.0.1:27017"
+  "mongodb://127.0.0.1:27017/my_app"

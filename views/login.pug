@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1=title
+    h1=message
+    form(method='post' action='/login/submit' id='login' class='el-form-item--medium')
+        | 用户名称:
+        input(type='text' name='userName' form='login' class='el-input--medium')
+        br
+        | 用户密码:
+        input(type='password' name='userPassword' form='login' class='el-input--medium')
+        br
+        input(type='submit' value='登录' form='login' class='el-submenu__icon-arrow')
